@@ -1,0 +1,28 @@
+body {
+   font-family:Trebuchet MS;
+    background-color: #7B79AD; 
+    color: #FAF6E1
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Yatra One";
+font-size:50pt; 
+text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+#hero, footer {
+   background-color:#ADA88B;
+    padding: 10px;
+    color: #7B79AD;
+   text-align: center;
+}
+
+#hero img {
+
+    width: 300px;
+}
+
