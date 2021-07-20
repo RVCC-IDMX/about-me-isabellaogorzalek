@@ -15,6 +15,7 @@ main {
     text-align: center;
 }
 
+
 /*Hero Section*/
 
 
@@ -45,17 +46,27 @@ main {
 
 }
 
+
 #hobbies ul li:nth-child(even) {
     color:black;
-    list-style-type:circle;
-    text-align:center;
+    list-style-position:inside;
+
 }
+
+
+ul li {
+    list-style-position: inside;
+}
+
+    
+
 
 
   /*Gallery Section*/
   #gallery {
 border: 10px solid #ADA88B;
 box-shadow: 0 0 0 10px #969278;
+margin-bottom: 2rem;
 
 
 
@@ -72,6 +83,49 @@ text-align:center;
 
 
   }
+
+  /*Literature*/
+  #lit {
+border:10px solid #ADA88B;
+box-shadow: 0 0 0 10px #969278;
+margin: bottom 2rem;
+
+  }
+
+  #lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+
+  }
+
+  #lit div p {
+padding: 0.3rem 0;
+clear:both;
+
+
+  }
+
+  /*Drop Caps*/
+  #lit div p:first-letter {
+color:#57567A; 
+float:left;
+font-size:3em; 
+padding:.25em;
+line-height:.65;
+border:4px outset #CCBEFE;
+text-shadow:2px 2px 3px rgba(red, green, blue, alpha);
+box-shadow:5px 5px 5px rgba(red, green, blue, alpha);
+border-top-left-radius: .2em;
+border-bottom-right-radius: .2em;
+  }
+
+
+
+
+
+
+  
 
 
   
@@ -95,8 +149,3 @@ text-align:center;
 
 
  
-
-
-
-
-
