@@ -2,6 +2,7 @@ body {
    font-family:Trebuchet MS;
     background-color: #7B79AD; 
     color: #FAF6E1
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,23 +15,77 @@ main {
     text-align: center;
 }
 
+/*Hero Section*/
+
+
 #hero, footer {
    background-color:#ADA88B;
     padding: 10px;
     color: #7B79AD;
    text-align: center;
+  
+   
+   
 }
 
 #hero img {
 
     width: 300px;
+    
 }
 
+
+/*Hobbies Section*/
 #hobbies ul li:nth-child(even) {
     color: #473733;
+    list-style-type:circle;
+  text-align:center;
+  list-style-position: initial;
   
 
 }
+
+#hobbies ul li:nth-child(even) {
+    color:black;
+    list-style-type:circle;
+    text-align:center;
+}
+
+
+  /*Gallery Section*/
+  #gallery {
+border: 10px solid #ADA88B;
+box-shadow: 0 0 0 10px #969278;
+
+
+
+  }
+
+  #gallery img {
+    max-width: 100%
+
+  }
+ 
+  #gallery figure {
+
+text-align:center;
+
+
+  }
+
+
+  
+ 
+     
+
+
+
+  
+
+
+
+
+
 
 
 
